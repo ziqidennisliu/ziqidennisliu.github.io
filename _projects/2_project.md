@@ -1,81 +1,91 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: AroMR
+description: Designing Olfactory Experiences for Spatial Computing Scenarios in Mixed Reality
+img: assets/img/AroMR/title.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Research Projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+2024  
+*Yibo Wang, **Ziqi Liu**, Qi Lu*  
+<br>
+Emerging Mixed Reality (MR) platforms with spatially aware capabilities allow us to experience digital objects blended with the real world, yet current HCI researches neglect the rich potential that olfactory inputs hold for enhancing user immersion and interaction within immersive MR environments. Additionally, the interaction between olfactory rendering and the physical environment has not been thoroughly investigated.   
+We proposed a **"field-centric"** olfactory rendering strategy, designed and implemented the **AroMR** proof-of-concept prototype, and explored potential olfactory scenarios and design spaces within Mixed Reality.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/aromr0.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
+<!-- <div class="caption">
     This image can also have a caption. It's like magic.
-</div>
+</div> -->
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br>
+## “Field-Centric”  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Unlike traditional olfactory devices placed near the nose, the "field-centric" strategy disperses small olfactory units across various locations in the physical environment. Users can fully leverage the physical space to create a "scent network" and better utilize the airflow within the environment to interact with the scents emitted by the devices. This approach enables effects such as dispersion, flow, and wafting, which are difficult to achieve with conventional olfactory devices.
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0 d-flex justify-content-center">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/newhead fig.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<br>
+## AroMR  
+
+The system consists of two parts: the olfactory display hardware and the mixed reality software.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/system.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+We used the Meta Quest 3 and our self-designed and developed scent playback hardware to implement the AroMR proof-of-concept system.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/use2.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/use1.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
 </div>
-```
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/mrroom1.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/mrroom2.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/use.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
 
-{% endraw %}
+
+<br>
+## Applications and Design Spaces  
+
+In the mixed reality software, we developed three typical scenarios to validate our design. These three scenarios effectively demonstrate some potential olfactory experiences utilizing the physical environment in MR and provide insights for exploring future olfactory scenarios and design space.
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0 d-flex justify-content-center">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/Typical.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+
+Building on the above exploration, we plan to organize an expert workshop to discuss additional application scenarios and design factors, with the goal of deriving a more comprehensive design space. We have conducted some preliminary considerations in this regard.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/designspace.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+
+
+

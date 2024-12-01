@@ -1,80 +1,154 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Laser Battle Chess
+description: Design of Large-Scale Science Popularization Game Installations
+img: assets/img/Laserchess/title.png
+importance: 2
+category: Design Projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+2024  
+*Teamwork: **Ziqi Liu**, Zhang Jiang, Xinyang Liu*  
+*Advisor: Lei Zhang, Linhong Ji*  
+<br>
+This work is a science popularization interactive installation that we designed in collaboration with the [China Science and Technology Museum](https://cstm.cdstm.cn/AboutUs/index.html) in Beijing, for its Science Paradise Exhibition Hall.  
+This device helps participants develop an intuitive understanding and reflection on the principles of reflection and refraction through the form of an **optical path-based competitive game**. While ensuring fun, demonstration, and educational value, it uses magnetic attraction control and a design that separates the optical path from the operation section to maximize controllability and safety during use.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/overview.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+<br>
+## Concept Design and Sketches
+
+Based on the basic rule of "guiding the light emitted by the laser emitter to the opponent's receiver to win" and the game setting of interstellar warfare, we extended the gameplay and designed the appearance.  
+Additionally, for safety considerations, we developed a unique magnetic attraction method and device structure to control the movement and rotation of optical components, ensuring that the light and optical components remain level and minimizing the risk of laser exposure to the eyes.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/sketch.png" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<br>
+## Modeling and Assembly Design
+
+Considering the format of a strategy board game and the setting of interstellar warfare, we adopted restrained and simplified geometric shapes for the design of the components. While ensuring the recognizability of the spaceship shape, we maintained a uniform design between the spaceship and the optical components underneath, ensuring consistency and coherence in terms of both meaning and visual style.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/1.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/2.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/3.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/4.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/5.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/6.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/7.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/8.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/9.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/10.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In terms of assembly, we precisely limit the height of the enclosed space on the display stand to avoid the risk of laser exposure to the eyes. At the same time, we use the magnetic attraction method to achieve safe and effective control.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/project.jpg" title="example image" class="img-fluid rounded" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/install.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<br>
+## Renderings and Effect Demonstrations
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/22.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/33.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/44.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/55.png" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/all.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/tower.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/corner.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/chess.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/overview.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<br>
+## Prototyping and Assembly
 
-{% raw %}
+We used 3D printing, laser cutting, and other methods to produce the required components. The final assembly is currently in progress.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble5.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble6.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble1.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble2.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble3.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble4.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>

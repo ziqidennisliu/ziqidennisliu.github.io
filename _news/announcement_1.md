@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-10-11 15:59:00-0400
+published: true
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Established a new wedsite for myself! 🥳

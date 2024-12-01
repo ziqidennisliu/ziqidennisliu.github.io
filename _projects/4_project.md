@@ -1,80 +1,120 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Embroidery of Light
+description: Luminescent Flexible Materials for Traditional Craftsmanship
+img: assets/img/Embroidery/title.jpg
+importance: 1
+category: Design Projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+2024  
+*Teamwork: **Ziqi Liu**, Yao Lu, Xuezhu Wang*  
+*Advisor: Haipeng Mi*  
+<br>
+This work is part of a collaboration project with [Mercedes-Benz, Beijing](https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-5184.html). In this project, we explored the application forms and interaction design of emerging smart materials in automotive interiors, including textile sensors, smart materials, 4D materials, and dynamic materials.  
+In this work, we explored the potential application of [a new type of flexible luminescent material](https://www.nature.com/articles/s41586-021-03295-8) in traditional **embroidery** techniques, as well as its possible uses in automotive cabin interactions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/overview.gif" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+<br>
+## Pattern Design and Embroidery Sample
+
+We designed three different types of patterns, including functional pattern, traditional embroidery pattern, traditional weaving pattern. Additionally, we created embroidery samples with flexible luminescent materials using traditional embroidery and weaving techniques.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/f1.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/f2.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/f3.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/f4.png" title="example image" class="img-fluid rounded" %}
+    </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/e1.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/e2.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/e3.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/e4.png" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/w2.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/w3.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/w4.png" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/w5.png" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<br>
+## Lighting Control and Circuit Implementation
+
+Due to the requirement of alternating high-voltage, low-current conditions, we chose to connect the flexible luminescent material in series with a field-effect transistor (FET), with an ESP32 controller to control the brightness of the threads.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/circuit.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/circuit1.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<br>
+## Large-Format Interior Prototype Fabrication
+
+We designed and created a glowing embroidered decoration for the interior of a Mercedes-Benz engineering vehicle, which was then installed in the actual vehicle for an effect preview. This served as a feasibility exploration for further exploring interactive features in the future.  
+Due to confidentiality agreements, the final results cannot be displayed. However, here we present some images from the design process.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/design.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Sketches of the interior design of the Mercedes-Benz engineering vehicle.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/animation.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    Animation of the glowing embroidered decoration in the Mercedes-Benz engineering vehicle.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/install1.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/install2.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Installation of the glowing embroidered decoration in the Mercedes-Benz engineering vehicle.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
