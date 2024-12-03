@@ -10,8 +10,7 @@ category: Research Projects
 2024  
 *Chang Liu, Xiangyang Wang, Chun Yu, Yingtian Shi, Chongyang Wang, **Ziqi Liu**, Chen Liang, Yuanchun Shi*  
 <br>
-Emerging Mixed Reality (MR) platforms with spatially aware capabilities allow us to experience digital objects blended with the real world, yet current HCI researches neglect the rich potential that olfactory inputs hold for enhancing user immersion and interaction within immersive MR environments. Additionally, the interaction between olfactory rendering and the physical environment has not been thoroughly investigated.   
-We proposed a **"field-centric"** olfactory rendering strategy, designed and implemented the **AroMR** proof-of-concept prototype, and explored potential olfactory scenarios and design spaces within Mixed Reality.
+Limited accuracy of eye tracking on smartphones restricts its use. Existing RGB-camera-based eye tracking systems rely on extensive datasets, which could be improved by continuous fine-tuning using calibration data implicitly collected from user interactions. In this context, we propose COMETIC (Cursor Operation Mediated Eye-Tracking Implicit Calibration), which introduces a cursor-based interaction and utilizes the inherent correlation between cursor and eye movement.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,9 +19,9 @@ We proposed a **"field-centric"** olfactory rendering strategy, designed and imp
 </div>
 
 <br>
-## “Flied-Centric”  
+## Eye Tracking on Smartphone 
 
-Unlike traditional olfactory devices placed near the nose, the "field-centric" strategy disperses small olfactory units across various locations in the physical environment. Users can fully leverage the physical space to create a "scent network" and better utilize the airflow within the environment to interact with the scents emitted by the devices. This approach enables effects such as dispersion, flow, and wafting, which are difficult to achieve with conventional olfactory devices.
+Current smartphone eye tracking faces two main challenges: limited personalization for individual users and difficulty adapting to frequent posture changes. To address these issues, we developed a system that dynamically calibrates eye tracking through implicit user interactions, improving both accuracy and personalization.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,29 +30,33 @@ Unlike traditional olfactory devices placed near the nose, the "field-centric" s
 </div>
 
 <br>
-## “Flied-Centric”  
+## COMETIC  
 
-Unlike traditional olfactory devices placed near the nose, the "field-centric" strategy disperses small olfactory units across various locations in the physical environment. Users can fully leverage the physical space to create a "scent network" and better utilize the airflow within the environment to interact with the scents emitted by the devices. This approach enables effects such as dispersion, flow, and wafting, which are difficult to achieve with conventional olfactory devices.
+By filtering valid cursor coordinates as proxies for gaze ground truth and fine-tuning the eye-tracking model with corresponding images, COMETIC enhances accuracy during interaction. Both filtering and fine-tuning utilize pre-trained models and can be further improved with personalized, dynamically updated data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/COMETIC/teaser.png" title="image" class="img-fluid rounded" %}
     </div>
 </div>
+<div class="caption">
+    The workflow of COMETIC (Cursor Operation Mediated Eye-Tracking Implicit Calibration)
+</div>
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/COMETIC/interface.jpg" title="image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/interaction.gif" title="image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/COMETIC/algorithm.png" title="image" class="img-fluid rounded" %}
     </div>
 </div>
+<div class="caption">
+    Interactions and Model Structures of COMETIC
+</div>
 
 
 <br>
-## “Flied-Centric”  
-
-Unlike traditional olfactory devices placed near the nose, the "field-centric" strategy disperses small olfactory units across various locations in the physical environment. Users can fully leverage the physical space to create a "scent network" and better utilize the airflow within the environment to interact with the scents emitted by the devices. This approach enables effects such as dispersion, flow, and wafting, which are difficult to achieve with conventional olfactory devices.
+## Data Collection Experiment  
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -61,5 +64,40 @@ Unlike traditional olfactory devices placed near the nose, the "field-centric" s
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/COMETIC/experiment_layout.png" title="image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    Apparatus and Layouts in the Experiment
+</div>
+
+
+<br>
+## Evaluation  
+
+Results show that COMETIC achieves an average eye-tracking error of 208.04 px (1.2 cm), representing a 49.64% improvement compared to the system without fine-tuning. The analysis reveals that filtering cursor points with an actual gaze distance between 250 and 300 px (1.44 to 1.73 cm) yields the best eye-tracking results.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_video_to_gaze_error.png" title="image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_cursor_video_to_distance_precision.png" title="image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_cursor_video_to_distance_fp_error.png" title="image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_iter_gaze_error.png" title="image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_iter_precision.png" title="image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_iter_fp_error.png" title="image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/0829_iter_gaze_error_of_subject_tau_250.png" title="image" class="img-fluid rounded" %}
     </div>
 </div>
