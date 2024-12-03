@@ -76,7 +76,7 @@ In terms of assembly, we precisely limit the height of the enclosed space on the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/project.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/project.JPG" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Laserchess/install.jpg" title="example image" class="img-fluid rounded" %}
@@ -103,23 +103,23 @@ In terms of assembly, we precisely limit the height of the enclosed space on the
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/all.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/all.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/tower.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/tower.png" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/corner.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/corner.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/chess.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/chess.png" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/overview.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/overview.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 
