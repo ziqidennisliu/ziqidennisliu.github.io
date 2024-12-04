@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Use technology for cool and fun stuff.
+description: Technology truly changes lives when we focus on how it can interact better with people.
 nav: true
 nav_order: 3
 display_categories: [Research Projects, Design Projects]
