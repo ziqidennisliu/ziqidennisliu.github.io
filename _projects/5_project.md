@@ -28,7 +28,7 @@ Additionally, for safety considerations, we developed a unique magnetic attracti
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Laserchess/sketch.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/Sketch.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 
