@@ -52,21 +52,21 @@ We used the Meta Quest 3 and our self-designed and developed scent playback hard
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AroMR/use2.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/use2.png" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AroMR/use1.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/use1.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AroMR/mrroom1.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/mrroom1.gif" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AroMR/mrroom2.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/mrroom2.gif" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AroMR/use.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/use.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 
@@ -80,7 +80,7 @@ In the mixed reality software, we developed three typical scenarios to validate 
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/AroMR/typical.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/AroMR/Typical.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 
