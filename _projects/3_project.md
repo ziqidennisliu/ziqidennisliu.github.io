@@ -4,7 +4,7 @@ title:  AI-Assisted Art Training
 description: AI for Enhancing Artistic Skill Development in Calligraphy and Painting
 img: assets/img/AI-assisted/title.jpg
 importance: 3
-category: Research Projects
+category: 
 ---
 
 In professional art creation (e.g., calligraphy and painting), learning is costly and resource-limited, with top-tier resources scarce. While AIGC can generate artworks for aesthetic reference, it offers little guidance for developing creative skills.  

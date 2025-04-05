@@ -4,7 +4,7 @@ title: Embroidery of Light
 description: Luminescent Flexible Materials for Traditional Craftsmanship
 img: assets/img/Embroidery/title.jpg
 importance: 1
-category: Design Projects
+category: Fun Projects
 ---
 
 2024  
@@ -118,3 +118,13 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
     Installation of the glowing embroidered decoration in the Mercedes-Benz engineering vehicle.
 </div>
 
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/embroidery.mp4" autoplay="false" controls="true" width="100%" height="auto" %}
+    </div>
+</div>
+<div class="caption">
+    The demonstration video
+</div>

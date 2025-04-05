@@ -4,7 +4,7 @@ title: Laser Battle Chess
 description: Design of Large-Scale Science Popularization Game Installations
 img: assets/img/Laserchess/title.png
 importance: 2
-category: Design Projects
+category: Fun Projects
 ---
 
 2024  

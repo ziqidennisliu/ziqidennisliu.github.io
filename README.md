@@ -479,3 +479,42 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+
+
+## 本地调试
+
+本地预览步骤
+1. 克隆你的项目仓库
+git clone git@github.com:<你的用户名>/<你的项目名>.git
+cd <你的项目名>
+或者用 HTTPS 方式：
+git clone https://github.com/<你的用户名>/<你的项目名>.git
+cd <你的项目名>
+2. 拉取 Docker 镜像
+docker compose pull
+3. 启动项目
+docker compose up
+第一次运行时会下载大约 400MB 的镜像。启动成功后你可以通过浏览器访问：
+http://localhost:8080
+你将看到一份 al-folio 模板网站的副本，表示本地服务运行成功。
+
+🧪（可选）使用精简版 Docker 镜像（更小更快）
+docker compose -f docker-compose-slim.yml up
+♻️ 修改内容后自动更新？
+你在本地修改的内容应该会自动刷新网页（实时更新或几秒后）。如果没有自动刷新，尝试手动刷新页面或重启容器。
+
+🧹 重建镜像（如果需要）
+如果你修改了 Docker 配置、想安装额外的依赖或者打算调试 Jekyll 版本问题，可以使用：
+docker compose up --build
+强制重建：
+docker compose up --build --force-recreate
+🐛 遇到问题怎么排查？
+查看日志：
+docker compose logs
+进入容器内部调试：
+docker compose exec -it jekyll /bin/bash
+然后运行项目初始化脚本：
+./bin/entry_point.sh
+如遇依赖问题可以尝试：
+bundle install
+./bin/entry_point.sh

@@ -12,9 +12,15 @@ category: Research Projects
 <br>
 Limited accuracy of eye tracking on smartphones restricts its use. Existing RGB-camera-based eye tracking systems rely on extensive datasets, which could be improved by continuous fine-tuning using calibration data implicitly collected from user interactions. In this context, we propose COMETIC (Cursor Operation Mediated Eye-Tracking Implicit Calibration), which introduces a cursor-based interaction and utilizes the inherent correlation between cursor and eye movement.
 
+<br>
+**Publication:**  
+- Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration*(CHI ’25)*.  
+
+<br>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/chi25b-sub8820-i14.mp4" autoplay="true" controls="true" width="100%" height="auto" %}
+        {% include video.liquid path="assets/video/cometic.mp4" autoplay="true" controls="true" width="100%" height="auto" %}
     </div>
 </div>
 
@@ -58,6 +64,22 @@ By filtering valid cursor coordinates as proxies for gaze ground truth and fine-
 <br>
 ## Data Collection Experiment  
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/apparatus_and_task.png" title="image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    The Apparatus and Experimental Task
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/layout.png" title="image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    The 3D-printed stand and the layout on screen
+</div>
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/COMETIC/apparatus.jpg" title="image" class="img-fluid rounded" %}

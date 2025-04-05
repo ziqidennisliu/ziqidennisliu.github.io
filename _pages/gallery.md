@@ -14,6 +14,31 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
 
 
 <br>
+**2025** Spring in Beijing, Beijing, China
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gallery/spring1.jpg" title="example image" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gallery/spring2.jpg" title="example image" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gallery/spring3.jpg" title="example image" class="img-fluid" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gallery/spring4.jpg" title="example image" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gallery/spring5.jpg" title="example image" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gallery/spring6.jpg" title="example image" class="img-fluid" %}
+    </div>
+</div>
+
+<br>
 **2024** Night in Tianjin, Tianjin, China
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

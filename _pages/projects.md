@@ -5,7 +5,7 @@ permalink: /projects/
 description: Technology truly changes lives when we focus on how it can interact better with people.
 nav: true
 nav_order: 3
-display_categories: [Research Projects, Design Projects]
+display_categories: [Research Projects, Fun Projects]
 horizontal: false
 ---
 
