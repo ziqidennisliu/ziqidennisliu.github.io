@@ -90,7 +90,7 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Embroidery/design.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/design.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -98,7 +98,7 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Embroidery/animation.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Embroidery/animation.gif" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
