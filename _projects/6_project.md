@@ -28,19 +28,19 @@ We simplified and abstracted the spatial functions in three ways: by using relat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/relation.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/relation.jpg" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/stuff.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/stuff.jpg" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/stuff1.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/stuff1.jpg" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/abstract1.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/abstract1.jpg" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/abstract.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Guidesystem/abstract.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 
