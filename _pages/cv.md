@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /skills/
-title: skills & courses
+title: SKILLS & COURSES
 nav: true
 nav_order: 4
 cv_pdf:

@@ -4,8 +4,12 @@ title:  AI-Assisted Art Training
 description: AI for Enhancing Artistic Skill Development in Calligraphy and Painting
 img: assets/img/AI-assisted/title.jpg
 importance: 3
-category: 
+category: Fun Projects
 ---
+
+2024  
+*Teamwork: **Ziqi Liu**, Xinyang Liu*  
+*Advisor: Xiang Li*  
 
 In professional art creation (e.g., calligraphy and painting), learning is costly and resource-limited, with top-tier resources scarce. While AIGC can generate artworks for aesthetic reference, it offers little guidance for developing creative skills.  
 From a human-AI collaborative perspective, we aim for AI to not only generate but also "create" art like humans, guiding artistic skill learning. This project will develop a multimodal system to capture data like finger pressure and pen posture, create a professional dataset, and use representation learning to offer interactive, expert feedback.  

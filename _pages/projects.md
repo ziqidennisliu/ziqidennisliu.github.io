@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: PROJECTS
 permalink: /projects/
 description: Technology truly changes lives when we focus on how it can interact better with people.
 nav: true

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: gallery
+title: GALLERY
 permalink: /gallery/
 description:
 nav: true
