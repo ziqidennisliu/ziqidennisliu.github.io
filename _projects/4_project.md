@@ -3,7 +3,7 @@ layout: page
 title: Embroidery of Light
 description: Luminescent Flexible Materials for Traditional Craftsmanship
 img: assets/img/Embroidery/title.jpg
-importance: 1
+importance: 2
 category: Fun Projects
 ---
 

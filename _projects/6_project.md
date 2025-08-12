@@ -3,7 +3,7 @@ layout: page
 title: Guidance System Design
 description: Design of Large-Scale Public Space Wayfinding Systems
 img: assets/img/Guidesystem/0.jpg
-importance: 3
+importance: 4
 category: Fun Projects
 related_publications: false
 ---
