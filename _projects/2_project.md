@@ -1,8 +1,9 @@
 ---
 layout: page
-title: AroMR
-description: Decentralizing Olfactory Displays into the Environment for Olfactory-Augmented Experiences in Mixed Reality
-img: assets/img/AroMR/title.jpg
+title: AroMR：Decentralizing Olfactory Displays into the Environment for Olfactory-Augmented Experiences in Mixed Reality
+description: 2025, ACM CHI EA’25 (Late Breaking Work)
+tag: • Mixed Reality, Olfactory Interface
+img: assets/img/AroMR/headfig.jpg
 importance: 2
 category: Research Projects
 ---
@@ -11,11 +12,12 @@ category: Research Projects
 *Yibo Wang, **Ziqi Liu**, Jiao Xue, Qi Lu*  
 <br>
 Emerging Mixed Reality (MR) platforms with spatially aware capabilities allow us to experience digital objects blended with the real world, yet current HCI researches neglect the rich potential that olfactory inputs hold for enhancing user immersion and interaction within immersive MR environments. Additionally, the interaction between olfactory rendering and the physical environment has not been thoroughly investigated.   
+
 We proposed a **"field-centric"** olfactory rendering strategy, designed and implemented the **AroMR** proof-of-concept prototype, and explored potential olfactory scenarios and design spaces within Mixed Reality.
 
 <br>
 **Publication:**  
-- AroMR: Decentralizing Olfactory Displays into the Environment for Olfactory-Augmented Experiences in Mixed Reality*(CHI EA ’25)*.  
+- [AroMR: Decentralizing Olfactory Displays into the Environment for Olfactory-Augmented Experiences in Mixed Reality*(CHI EA ’25)*](https://dl.acm.org/doi/abs/10.1145/3706598.3713936)
 
 <br>
 

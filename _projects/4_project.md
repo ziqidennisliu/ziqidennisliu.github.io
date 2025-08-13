@@ -2,6 +2,7 @@
 layout: page
 title: Embroidery of Light
 description: Luminescent Flexible Materials for Traditional Craftsmanship
+tag: • Interaction Design, Product design
 img: assets/img/Embroidery/title.jpg
 importance: 2
 category: Fun Projects
@@ -12,6 +13,7 @@ category: Fun Projects
 *Advisor: Haipeng Mi*  
 <br>
 This work is part of a collaboration project with [Mercedes-Benz, Beijing](https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-5184.html). In this project, we explored the application forms and interaction design of emerging smart materials in automotive interiors, including textile sensors, smart materials, 4D materials, and dynamic materials.  
+
 In this work, we explored the potential application of [a new type of flexible luminescent material](https://www.nature.com/articles/s41586-021-03295-8) in traditional **embroidery** techniques, as well as its possible uses in automotive cabin interactions.
 
 <div class="row">

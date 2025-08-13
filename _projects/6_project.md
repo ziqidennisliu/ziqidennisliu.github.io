@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Guidance System Design
-description: Design of Large-Scale Public Space Wayfinding Systems
+description: Redesigning the guide system at Xinya College
+tag: • UI Design, Product design
 img: assets/img/Guidesystem/0.jpg
 importance: 4
 category: Fun Projects
@@ -9,6 +10,7 @@ related_publications: false
 ---
 
 2024  
+Coursework of Innovative Design and Practice - Basics  
 *Teamwork: **Ziqi Liu**, Yixuan Zhi*  
 *Advisor: Lei Zhang*  
 <br>

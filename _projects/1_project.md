@@ -1,8 +1,9 @@
 ---
 layout: page
-title: COMETIC
-description:  Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration
-img: assets/img/COMETIC/title.jpg
+title: Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration
+description:  2025, ACM CHI ’25 
+tag: • Eye Tracking, Implicit Calibration, Mobile Devices, Personalization
+img: assets/img/COMETIC/headfig.jpg
 importance: 1
 category: Research Projects
 ---
@@ -10,11 +11,13 @@ category: Research Projects
 2024  
 *Chang Liu, Xiangyang Wang, Chun Yu, Yingtian Shi, Chongyang Wang, **Ziqi Liu**, Chen Liang, Yuanchun Shi*  
 <br>
-Limited accuracy of eye tracking on smartphones restricts its use. Existing RGB-camera-based eye tracking systems rely on extensive datasets, which could be improved by continuous fine-tuning using calibration data implicitly collected from user interactions. In this context, we propose COMETIC (Cursor Operation Mediated Eye-Tracking Implicit Calibration), which introduces a cursor-based interaction and utilizes the inherent correlation between cursor and eye movement.
+Limited accuracy of eye tracking on smartphones restricts its use. Existing RGB-camera-based eye tracking rely on extensive datasets, which could be enhanced by continuous fine-tuning using calibration data implicitly collected from interaction. In this context, we propose **COMETIC** (Cursor Operation Mediated Eye-Tracking Implicit Calibration), which introduces a cursor-based interaction and utilizes the inherent correlation between cursor and eye movement. 
+
+By filtering valid cursor coordinates as proxies for the ground truth of gaze and fine-tuning the eye-tracking model with corresponding images, COMETIC enhances accuracy during interaction. Both filtering and fine-tuning use pre-trained models and could be facilitated using personalized, dynamically updated data. Results show COMETIC achieves an average eye tracking error of 208.04 px (1.2 cm), representing a 49.64% improvement compared to that without fine-tuning. We found that filtering cursor points whose actual distance to gaze falls within 250 to 300 px (1.44 to 1.73 cm) yields the best eye tracking results.
 
 <br>
 **Publication:**  
-- Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration*(CHI ’25)*.  
+- [Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration*(CHI ’25)*](https://dl.acm.org/doi/abs/10.1145/3706598.3713936)  
 
 <br>
 

@@ -2,13 +2,14 @@
 layout: page
 title:  Cognitive Pen
 description: A Pen-Based Multi-Physiological Signal Monitoring System
+tag: • Electrical Engineering, Algorism Design, Product Design # see the projects.liquid in _includes/scripts
 img: assets/img/cognitivepen/title.jpg
 importance: 1
 category: Fun Projects
 ---
 
 2025  
-*Ziqi Liu*
+*Ziqi Liu*  
 *Advisor: Yuntao Wang, Haipeng Mi*  
 
 Continuous monitoring of physiological signals such as electrodermal activity (EDA) and photoplethysmography (PPG) is critical for assessing users’ psychological states in health and education contexts. However, acquiring high-quality signals remains challenging due to the sensitivity of sensor placement and motion artifacts.
@@ -26,8 +27,6 @@ This research offers a novel and practical solution for robust, low-burden psych
 <br>
 ## Pen-based Sensing System Design  
 
-Given the complexity of art creation, we’ll begin with calligraphy practice. Through discussions with professional calligraphers, we’ve identified pen tip pressure and posture as key factors. Our goal is to focus on modeling the changes in pen tip pressure and pen posture during calligraphy practice for model training and instructional system development.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cognitivepen/system.png" title="image" class="img-fluid rounded" %}
@@ -36,8 +35,6 @@ Given the complexity of art creation, we’ll begin with calligraphy practice. T
 
 <br>
 ## Hardware Design  
-
-Through research, we found that commercial products like the Apple Pencil can provide the necessary data, such as pen tip pressure and pen posture. Therefore, we plan to first validate the feasibility using data collected from the Apple Pencil. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,18 +55,32 @@ Through research, we found that commercial products like the Apple Pencil can pr
 <br>
 ## Algorism Design 
 
-After completing initial data alignment, filtering, and visualization, we plan to train a model to understand these sequential patterns using an autoregressive approach. Our initial plan is to train the model by masking certain data points and regenerating them. The project is currently ongoing, and further progress will be updated regularly.
+The results of the signal correlation analysis are associated with the hand movement intensity reflected by the IMU data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cognitivepen/motion_correlation.png" title="image" class="img-fluid rounded" %}
     </div>
 </div>
+
+<br>
+
+Training Method for the Signal Usability Classification Model：
+
+<br>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cognitivepen/signalfiltering.png" title="image" class="img-fluid rounded" %}
     </div>
 </div>
+
+<br>
+
+Workflow of Signal Usability Assessment and Cognitive Load Classification：  
+
+<br>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cognitivepen/algorism.jpg" title="image" class="img-fluid rounded" %}

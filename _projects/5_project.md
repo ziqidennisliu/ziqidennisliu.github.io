@@ -2,6 +2,7 @@
 layout: page
 title: Laser Battle Chess
 description: Design of Large-Scale Science Popularization Game Installations
+tag: • Interaction Design, Tangible User Interface
 img: assets/img/Laserchess/title.png
 importance: 3
 category: Fun Projects
@@ -12,6 +13,7 @@ category: Fun Projects
 *Advisor: Lei Zhang, Linhong Ji*  
 <br>
 This work is a science popularization interactive installation that we designed in collaboration with the [China Science and Technology Museum](https://cstm.cdstm.cn/AboutUs/index.html) in Beijing, for its Science Paradise Exhibition Hall.  
+
 This device helps participants develop an intuitive understanding and reflection on the principles of reflection and refraction through the form of an **optical path-based competitive game**. While ensuring fun, demonstration, and educational value, it uses magnetic attraction control and a design that separates the optical path from the operation section to maximize controllability and safety during use.
 
 <div class="row">
@@ -24,6 +26,7 @@ This device helps participants develop an intuitive understanding and reflection
 ## Concept Design and Sketches
 
 Based on the basic rule of "guiding the light emitted by the laser emitter to the opponent's receiver to win" and the game setting of interstellar warfare, we extended the gameplay and designed the appearance.  
+
 Additionally, for safety considerations, we developed a unique magnetic attraction method and device structure to control the movement and rotation of optical components, ensuring that the light and optical components remain level and minimizing the risk of laser exposure to the eyes.
 
 <div class="row">
@@ -126,7 +129,7 @@ In terms of assembly, we precisely limit the height of the enclosed space on the
 <br>
 ## Prototyping and Assembly
 
-We used 3D printing, laser cutting, and other methods to produce the required components. The final assembly is currently in progress.
+We used 3D printing, laser cutting, and other methods to produce the required components. The final version of the prototype has been received and accepted by the China Science and Technology Museum.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -150,5 +153,13 @@ We used 3D printing, laser cutting, and other methods to produce the required co
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble4.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble7.jpg" title="example image" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laserchess/assemble8.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
