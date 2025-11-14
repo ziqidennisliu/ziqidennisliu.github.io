@@ -26,6 +26,6 @@ Hi! I'm **Ziqi Liu** 刘子琦
 
 I'm a first-year M.phil student [Hong Kong University of Science and Technology](https://isd.hkust.edu.hk/), supervised by [Qijia Shao](https://qijiashao.github.io/). Prior to HKUST, I got my B.Eng degree at [Tsinghua University](https://www.tsinghua.edu.cn/en/), supervised by [Yuntao Wang](https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/) and [Haipeng Mi](https://www.milab.design/team-1/mi-haipeng). 
 
-My passion lies in exploring the convergence of artificial intelligence and sensing systems to develop early detection solutions and assistive devices that offer seamless, unobtrusive support for personalized healthcare and education. I aspire to contribute to a future where AI-assisted technologies empower both the general public and medical and educational professionals.
+My research focuses on the design and development of novel AI-driven sensing and analysis systems. These systems exploit ubiquitous user devices and wearables, integrating hardware and software innovations to enable emergent interaction modalities and implicit, continuous monitoring of user behavior and physiological states.
 
 I have gained valuable research experience in multiple esteemed labs, inlucding [the Future Lab](https://thfl.tsinghua.edu.cn/en/) and [Pervasive HCI Group](https://pi.cs.tsinghua.edu.cn/) at Tsinghua University, as well as [UbiquitousX Lab](https://qijiashao.github.io/team/) at HKUST.
