@@ -9,18 +9,19 @@ profile:
   image: mypic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href='mailto:ziqidennisliu@outlook.com'>ziqidennisliu@outlook.com</a></p>
-    <p>+86 13990177975  </p>
-    <p>Clear Water Bay, Hong Kong SAR</p>
-    <p><a href='assets\pdf\CV_ziqi_liu.pdf'>CV</a> | <a href='https://scholar.google.com/citations?hl=zh-CN&user=_BNUuqUAAAAJ'>Google Scholar</a></p>
+    <div class="profile-icons">
+      <a href="mailto:ziqidennisliu@outlook.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="/assets/pdf/CV_ziqi_liu.pdf" title="CV" target="_blank" rel="noopener"><span class="cv-badge">CV</span></a>
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=_BNUuqUAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/ziqidennisliu" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ziqidennisliu" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the latest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-
-<br>
 
 Hi! I'm **Ziqi Liu** 刘子琦
 

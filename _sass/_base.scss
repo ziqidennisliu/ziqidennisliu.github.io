@@ -217,7 +217,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
@@ -225,6 +225,61 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+}
+
+/* Profile icons row */
+.profile-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0.6rem;
+  padding: 0;
+}
+
+.profile-icons a {
+  color: var(--global-text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 120ms ease;
+  background: transparent;
+  font-size: 1.35rem;
+}
+
+/* Hover: change icon color only */
+.profile-icons a:hover {
+  color: var(--global-theme-color);
+}
+
+/* CV badge with "CV" text */
+.cv-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: var(--global-text-color);
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1;
+  background: transparent;
+}
+
+/* Hover changes CV text color only */
+.profile-icons a:hover .cv-badge {
+  color: var(--global-theme-color);
+}
+
+/* About-page specific spacing & text justification */
+.post.about-page article {
+  margin-top: 1rem; /* gap between title and content */
+}
+
+.post.about-page .clearfix {
+  text-align: justify;        /* justify text for neat edges */
+  text-align-last: left;      /* keep last line left-aligned */
 }
 
 .post-description {
@@ -691,9 +746,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;
