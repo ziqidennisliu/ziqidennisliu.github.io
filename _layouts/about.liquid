@@ -40,12 +40,22 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Research Interests -->
+    {% if page.research_interests %}
+      <div class="about-section-research">
+        <h2>{{ page.research_interests.title | default: 'Research Interests' }}</h2>
+        {% include research_interests.liquid %}
+      </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <div class="about-section-news">
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </div>
     {% endif %}
 
     <!-- Latest posts -->
@@ -58,10 +68,12 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <div class="about-section-pubs">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </div>
     {% endif %}
 
     <!-- Add space between sections -->

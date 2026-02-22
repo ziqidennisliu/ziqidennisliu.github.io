@@ -4,7 +4,7 @@ title: AroMR：Decentralizing Olfactory Displays into the Environment for Olfact
 description: 2025, ACM CHI EA’25 (Late Breaking Work)
 tag: • Mixed Reality, Olfactory Interface
 img: assets/img/AroMR/headfig.png
-importance: 2
+importance: 3
 category: Research Projects
 ---
 

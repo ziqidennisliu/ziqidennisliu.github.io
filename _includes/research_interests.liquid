@@ -1,0 +1,19 @@
+<div class="research-interests">
+  <div class="research-interests-grid">
+    {% for item in page.research_interests.items %}
+      <div class="research-interest-card">
+        {% if item.image %}
+          <div class="research-interest-img">
+            <img
+              src="{{ item.image | prepend: 'assets/img/' | relative_url }}"
+              alt="{{ item.title }}"
+              loading="lazy"
+            />
+          </div>
+        {% endif %}
+        <h3>{{ item.title }}</h3>
+        <div class="ri-card-desc">{{ item.description }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

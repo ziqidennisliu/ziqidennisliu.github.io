@@ -4,7 +4,7 @@ title: Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit 
 description:  2025, ACM CHI ’25 
 tag: • Eye Tracking, Implicit Calibration, Mobile Devices, Personalization
 img: assets/img/COMETIC/headfig.jpg
-importance: 1
+importance: 2
 category: Research Projects
 ---
 
