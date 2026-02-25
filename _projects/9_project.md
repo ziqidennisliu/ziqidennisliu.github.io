@@ -8,13 +8,13 @@ importance: 1
 category: Research Projects
 ---
 
-2024  
+2026  
 ***Ziqi Liu**, Ziyi Xu, Jinhe Wen, Xiangjie Tang, Qijia Shao*  
 
 <br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Pretap/headfig.png" title="image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/Pretap/headfig.jpg" title="image" class="img-fluid rounded" %}
     </div>
 </div>
 <br>
