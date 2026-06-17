@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our project "Hand Motion Prediction for Adaptive Smartphone UI with Zero-permission Sensors" has won the **Best Award** for [UROP](https://urop.hkust.edu.hk/whats_urop) at HKUST! Congrulations to Ziyi and the team! 🎉
+Our project "PreTap: Implicit Reachability Analysis and Tap Prediction for One-handed Mobile Interaction" has won the **1st Prize** for HKUST [UROP](https://urop.hkust.edu.hk/whats_urop)! Congrulations to Ziyi and the team! 🎉 See the news [here](https://www.instagram.com/reel/DX80G_jnEA1/?igsh=dnR4eDBwdDhlNHNv)!
