@@ -60,21 +60,7 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
   </div>
 </div>
 
-<br><br>
-**2024** Night in Tianjin
-<br>
-<div class="justified-gallery">
-  <div class="jg-row">
-    <img src="{{ '/assets/img/gallery/tianjinnight1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjinnight1.jpg' | relative_url }}" alt="Night in Tianjin" width="1439" height="959" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/tianjinnight2-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjinnight2.jpg' | relative_url }}" alt="Night in Tianjin" width="1439" height="959" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/tianjinnight3-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjinnight3.jpg' | relative_url }}" alt="Night in Tianjin" width="1607" height="1071" loading="lazy" decoding="async" />
-  </div>
-  <div class="jg-row">
-    <img src="{{ '/assets/img/gallery/tianjinnight5-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjinnight5.jpg' | relative_url }}" alt="Night in Tianjin" width="1439" height="959" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/tianjinnight6-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjinnight6.jpg' | relative_url }}" alt="Night in Tianjin" width="1439" height="959" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/tianjinnight7-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjinnight7.jpg' | relative_url }}" alt="Night in Tianjin" width="1439" height="959" loading="lazy" decoding="async" />
-  </div>
-</div>
+
 
 <br><br>
 **2024** Sunset at Seaside
@@ -118,46 +104,6 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
   </div>
 </div>
 
-<br><br>
-**2023** Xiamen, Fujian, China
-<br>
-<div class="justified-gallery">
-  <div class="jg-row">
-    <img src="{{ '/assets/img/gallery/xiamen1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/xiamen1.jpg' | relative_url }}" alt="Xiamen" width="4656" height="3104" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/xiamen4-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/xiamen4.jpg' | relative_url }}" alt="Xiamen" width="4470" height="2980" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/xiamen5-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/xiamen5.jpg' | relative_url }}" alt="Xiamen" width="3296" height="2197" loading="lazy" decoding="async" />
-  </div>
-</div>
-
-<br><br>
-**2023** Lichuan, Hubei, China
-<br>
-<div class="justified-gallery">
-  <div class="jg-row">
-    <img src="{{ '/assets/img/gallery/lichuan1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/lichuan1.jpg' | relative_url }}" alt="Lichuan" width="5126" height="3417" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/lichuan3-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/lichuan3.jpg' | relative_url }}" alt="Lichuan" width="1045" height="1463" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/lichuan2-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/lichuan2.jpg' | relative_url }}" alt="Lichuan" width="1440" height="960" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/lichuan4-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/lichuan4.jpg' | relative_url }}" alt="Lichuan" width="3762" height="5267" loading="lazy" decoding="async" />
-  </div>
-</div>
-
-<br><br>
-**2022** Hanging around in Beijing
-<br>
-<div class="justified-gallery">
-  <div class="jg-row">
-    <img src="{{ '/assets/img/gallery/art1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art1.jpg' | relative_url }}" alt="Beijing Art" width="3713" height="5198" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/art2-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art2.jpg' | relative_url }}" alt="Beijing Art" width="5016" height="3344" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/art3-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art3.jpg' | relative_url }}" alt="Beijing Art" width="3700" height="5180" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/art4-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art4.jpg' | relative_url }}" alt="Beijing Art" width="4982" height="3321" loading="lazy" decoding="async" />
-  </div>
-  <div class="jg-row">
-    <img src="{{ '/assets/img/gallery/art5-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art5.jpg' | relative_url }}" alt="Beijing Art" width="5015" height="3343" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/art6-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art6.jpg' | relative_url }}" alt="Beijing Art" width="3613" height="5058" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/art7-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art7.jpg' | relative_url }}" alt="Beijing Art" width="3456" height="2304" loading="lazy" decoding="async" />
-    <img src="{{ '/assets/img/gallery/art8-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/art8.jpg' | relative_url }}" alt="Beijing Art" width="3673" height="5142" loading="lazy" decoding="async" />
-  </div>
-</div>
 
 <br><br>
 **2021** Beijing, China

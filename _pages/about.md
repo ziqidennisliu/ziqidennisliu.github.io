@@ -25,32 +25,22 @@ social: false # includes social icons at the bottom of the page
 research_interests:
   title: Research Interests
   items:
-    - title: Pervasive Sensing
-      image: ri_sensing.svg
+    - title: Mobile and Wearable Sensing
+      image: ri_sense.svg
       description: >
-        Acquiring behavioral and physiological signals through two complementary approaches:
-        <ul>
-          <li><b>Everyday devices</b> — repurposing built-in sensors to capture rich signals during natural interaction.</li>
-          <li><b>Custom wearables</b> — designing devices that unobtrusively collect modalities beyond commodity hardware.</li>
-        </ul>
-    - title: Personalized State Inference
-      image: ri_inference.svg
+        I repurpose built-in sensors on mobile and wearable devices or design custom wearables to capture rich <b>behavioral</b> and <b>physiological</b> signals during natural interaction. My work integrates innovations in both <b>hardware</b> and <b>algorithms</b> to enable less intrusive acquisition of higher-quality signals for downstream tasks.
+    - title: Adaptive Interaction Support
+      image: ri_interaction.svg
       description: >
-        Transforming sensor data into user- and context-aware user-state estimates::
-        <ul>
-          <li><b>Interaction intent</b> — recognizing implicit goals and attention patterns for interaction applications.</li>
-          <li><b>Health & cognitive states</b> — inferring physiological and psychological indicators for continuous health monitoring.</li>
-        </ul>
-    - title: Just-in-Time Intervention
-      image: ri_intervention.svg
+        I design systems that extract and analyze users’ interaction intentions and habits from their <b>behavioral</b> and <b>motion</b> data, providing real-time and personalized interaction assistance to improve user experience in scenarios such as <b>mobile interaction, eye-gaze recognition, indoor localization, and AR/VR</b>.
+    - title: Mobile Health and Well-being
+      image: ri_health.svg
       description: >
-        Moving beyond always-on feedback by identifying, for each user and context, the precise moments when intervention is most beneficial.
-        The system continuously evaluates situational cues and inferred user states to identify critical windows of need,
-        then delivers personalized, context-sensitive support in both interaction and health domains.
+        I design algorithms that extract meaningful features and information from users’ <b>behavioral</b> and <b>physiological</b> data (PPG, EDA, ECG and etc.). By combining with domain knowledge, I transform them into health insights, to provide personalized, actionable health guidance and support.
 ---
 
 
-Hi! I'm **Ziqi Liu** 刘子琦
+Hi! I'm **Ziqi Liu**.
 
 I'm a first-year M.phil student at the [UbiquitousX Lab](https://qijiashao.github.io/team/) at [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by [Qijia Shao](https://qijiashao.github.io/). Prior to HKUST, I got my B.Eng degree at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/en/), advised by [Yuntao Wang](https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/) and [Haipeng Mi](https://www.milab.design/team-1/mi-haipeng).
 
