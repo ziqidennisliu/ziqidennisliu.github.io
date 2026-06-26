@@ -127,3 +127,4 @@ http://localhost:8080
 ## 推送记录
 
 - 20260618 gallery-blur-agent-archive-about-cv-news
+- 20260626 research-interest-icons-gallery-news
