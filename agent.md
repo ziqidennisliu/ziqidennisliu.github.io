@@ -128,3 +128,4 @@ http://localhost:8080
 
 - 20260618 gallery-blur-agent-archive-about-cv-news
 - 20260626 research-interest-icons-gallery-news
+- 20260708 publication-project-orcid-step
