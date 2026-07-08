@@ -228,8 +228,10 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", ".nojekyll"]
 exclude:
+  - agent.md
+  - AGENTS.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -244,6 +246,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - project_archive/
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
