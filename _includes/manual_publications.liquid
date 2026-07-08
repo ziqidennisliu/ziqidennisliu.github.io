@@ -1,0 +1,198 @@
+{% assign publication_layout = site.data.publication_layout %}
+{% assign publication_item_gap = publication_layout.item_gap | default: '1.75rem' %}
+{% assign publication_mobile_item_gap = publication_layout.mobile_item_gap | default: '2rem' %}
+{% assign publication_title_font_size = publication_layout.title_font_size | default: '1.08rem' %}
+
+<style>
+  :root {
+    --publication-item-gap: {{ publication_item_gap }};
+    --publication-mobile-item-gap: {{ publication_mobile_item_gap }};
+    --publication-title-font-size: {{ publication_title_font_size }};
+  }
+
+  .publications ol.manual-publications {
+    width: 100%;
+  }
+
+  .publications ol.manual-publications > li {
+    height: 10.5rem;
+    margin-bottom: var(--publication-item-gap);
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .publications ol.manual-publications .manual-publication-row {
+    width: 100%;
+    min-height: 100%;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .publications ol.manual-publications .abbr {
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .publications ol.manual-publications .abbr figure,
+  .publications ol.manual-publications .abbr picture {
+    display: block;
+    width: 100%;
+    max-width: 140px;
+    height: 7.5rem;
+    margin: 0;
+  }
+
+  .publications ol.manual-publications .manual-publication-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .publications ol.manual-publications .manual-publication-content {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .publications ol.manual-publications .title {
+    font-size: var(--publication-title-font-size);
+    line-height: 1.3;
+  }
+
+  .publications ol.manual-publications .author-self {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+
+  .publications ol.manual-publications .publication-link {
+    display: inline-block;
+    margin-right: 0.45rem;
+    color: var(--global-text-color);
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .publications ol.manual-publications .publication-link-label {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+
+  .publications ol.manual-publications .publication-link:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  @media (max-width: 575.98px) {
+    .publications ol.manual-publications > li {
+      height: auto;
+      margin-bottom: var(--publication-mobile-item-gap);
+      overflow: visible;
+    }
+
+    .publications ol.manual-publications .abbr {
+      height: auto;
+    }
+
+    .publications ol.manual-publications .abbr figure,
+    .publications ol.manual-publications .abbr picture {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .publications ol.manual-publications .manual-publication-content {
+      min-height: auto;
+    }
+
+    .publications ol.manual-publications .manual-publication-preview {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+</style>
+
+<div class="publications">
+  <ol class="bibliography manual-publications">
+    {% for publication in site.data.publications %}
+      {% if include.selected_only and publication.selected != true %}
+        {% continue %}
+      {% endif %}
+      <li>
+        <div class="row manual-publication-row">
+          {% if publication.preview %}
+            <div class="col col-sm-2 abbr">
+              {%
+                include figure.liquid
+                loading="eager"
+                path=publication.preview
+                sizes="200px"
+                class="preview manual-publication-preview z-depth-1 rounded"
+                zoomable=true
+                alt=publication.title
+              %}
+            </div>
+          {% endif %}
+
+          <div class="{% if publication.preview %}col-sm-10{% else %}col-sm-12{% endif %} manual-publication-content">
+            <div class="title">{{ publication.title }}</div>
+
+            <div class="author">
+              {%- for author in publication.authors -%}
+                {%- if author.self -%}
+                  <strong><u class="author-self">{{ author.name }}</u></strong>
+                {%- else -%}
+                  {{ author.name }}
+                {%- endif -%}
+                {%- unless forloop.last -%}, {% endunless -%}
+              {%- endfor -%}
+            </div>
+
+            <div class="periodical">
+              {% if publication.venue %}
+                <em>{{ publication.venue }}</em>
+              {% endif %}
+              {% if publication.year %}
+                {% if publication.venue %}, {% endif %}{{ publication.year }}
+              {% endif %}
+            </div>
+
+            {% if publication.links %}
+              <div class="links">
+                {% if publication.links.paper %}
+                  <a href="{{ publication.links.paper }}" class="publication-link" target="_blank" rel="noopener">[<span class="publication-link-label">paper</span>]</a>
+                {% endif %}
+                {% if publication.links.video %}
+                  {% assign video_url = publication.links.video %}
+                  {% if video_url contains '://' %}
+                    <a href="{{ video_url }}" class="publication-link" target="_blank" rel="noopener">[<span class="publication-link-label">video</span>]</a>
+                  {% else %}
+                    <a href="{{ video_url | relative_url }}" class="publication-link">[<span class="publication-link-label">video</span>]</a>
+                  {% endif %}
+                {% endif %}
+                {% if publication.links.project_page %}
+                  {% assign project_page_url = publication.links.project_page %}
+                  {% if project_page_url contains '://' %}
+                    <a href="{{ project_page_url }}" class="publication-link" target="_blank" rel="noopener">[<span class="publication-link-label">project page</span>]</a>
+                  {% else %}
+                    <a href="{{ project_page_url | relative_url }}" class="publication-link">[<span class="publication-link-label">project page</span>]</a>
+                  {% endif %}
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</div>

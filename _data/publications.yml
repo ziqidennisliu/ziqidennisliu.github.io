@@ -1,0 +1,49 @@
+- title: "PreTap: Implicit Reachability Analysis and Tap Prediction for One-handed Mobile Interaction"
+  venue: "ACM IMWUT"
+  year: "2026"
+  preview: "assets/img/Pretap/headfig.jpg"
+  selected: true
+  authors:
+    - name: "Ziqi Liu"
+      self: true
+    - name: "Ziyi Xu"
+    - name: "Jinhe Wen"
+    - name: "Xiangjie Tang"
+    - name: "Qijia Shao"
+  links:
+    project_page: "/projects/9_project/"
+
+- title: "Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration"
+  venue: "ACM CHI"
+  year: "2025"
+  preview: "assets/img/publication_preview/cometic.png"
+  selected: true
+  authors:
+    - name: "Chang Liu"
+    - name: "Xiangyang Wang"
+    - name: "Chun Yu"
+    - name: "Yingtian Shi"
+    - name: "Chongyang Wang"
+    - name: "Ziqi Liu"
+      self: true
+    - name: "Chen Liang"
+    - name: "Yuanchun Shi"
+  links:
+    paper: "https://dl.acm.org/doi/10.1145/3706598.3713936"
+    video: "https://www.youtube.com/watch?v=6kr93ZJNsv4"
+    project_page: "/projects/1_project/"
+
+- title: "AroMR: Decentralizing Olfactory Displays into the Environment for Olfactory-Augmented Experiences in Mixed Reality"
+  venue: "ACM CHI EA"
+  year: "2025"
+  preview: "assets/img/publication_preview/AroMR.png"
+  selected: true
+  authors:
+    - name: "Yibo Wang"
+    - name: "Ziqi Liu"
+      self: true
+    - name: "Jiao Xue"
+    - name: "Qi Lu"
+  links:
+    paper: "https://dl.acm.org/doi/10.1145/3706599.3720290"
+    project_page: "/projects/2_project/"

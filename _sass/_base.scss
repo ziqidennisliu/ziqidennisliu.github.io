@@ -204,6 +204,7 @@ ul.task-list input[type="checkbox"] {
  *   --about-research-to-news : Research Interests ↔ News           (default 2.5rem)
  *   --about-text-to-news     : text ↔ News (if no research section)(default 3rem)
  *   --about-news-to-pubs     : News ↔ Publications                 (default 3rem)
+ *   Publication entry spacing and title sizing are controlled in `_data/publication_layout.yml`.
  *
  * Research Interests card
  *   --ri-grid-top            : heading ↔ card grid                  (default 1rem)
@@ -945,6 +946,13 @@ footer.sticky-bottom {
       }
 
       .author {
+        .author-self {
+          font-weight: 700;
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 0.18em;
+        }
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -986,6 +994,7 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -993,6 +1002,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -1046,11 +1056,124 @@ footer.sticky-bottom {
         border-color: var(--global-text-color);
       }
     }
+
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+  }
+
+  ol.manual-publications {
+    width: 100%;
+
+    li {
+      height: 10.5rem;
+      margin-bottom: var(--publication-item-gap, 1.75rem);
+      overflow: hidden;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      .manual-publication-row {
+        width: 100%;
+        min-height: inherit;
+        align-items: flex-start;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .abbr {
+        display: flex;
+        height: 100%;
+        align-items: flex-start;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .abbr figure,
+      .abbr picture {
+        display: block;
+        width: 100%;
+        max-width: 140px;
+        height: 7.5rem;
+        margin: 0;
+      }
+
+      .manual-publication-preview {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .manual-publication-content {
+        display: flex;
+        min-height: inherit;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .title {
+        font-size: var(--publication-title-font-size, 1.08rem);
+        line-height: 1.3;
+      }
+
+      .links {
+        margin-top: 0.35rem;
+        line-height: 1.5;
+
+        .publication-link {
+          display: inline-block;
+          margin-right: 0.45rem;
+          color: var(--global-text-color);
+          border: 0;
+          padding: 0;
+          text-decoration: none;
+
+          .publication-link-label {
+            color: inherit;
+            text-decoration: underline;
+            text-underline-offset: 0.16em;
+          }
+
+          &:hover {
+            color: var(--global-text-color);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    ol.manual-publications {
+      li {
+        height: auto;
+        margin-bottom: var(--publication-mobile-item-gap, 2rem);
+        overflow: visible;
+
+        .abbr {
+          height: auto;
+        }
+
+        .abbr figure,
+        .abbr picture {
+          max-width: 100%;
+          height: auto;
+        }
+
+        .manual-publication-content {
+          min-height: auto;
+        }
+
+        .manual-publication-preview {
+          max-width: 100%;
+          height: auto;
+        }
+      }
     }
   }
 }

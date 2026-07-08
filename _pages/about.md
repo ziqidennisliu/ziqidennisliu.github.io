@@ -13,6 +13,7 @@ profile:
       <a href="mailto:ziqidennisliu@outlook.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="/assets/pdf/CV_ziqi_liu.pdf" title="CV" target="_blank" rel="noopener"><span class="cv-badge">CV</span></a>
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=_BNUuqUAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://orcid.org/0009-0001-8417-6534" title="ORCID" target="_blank" rel="noopener"><i class="ai ai-orcid"></i></a>
       <a href="https://github.com/ziqidennisliu" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
       <a href="https://linkedin.com/in/ziqi-liu-b064b5393" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
     </div>
