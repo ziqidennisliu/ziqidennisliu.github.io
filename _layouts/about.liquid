@@ -91,5 +91,25 @@ layout: default
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+
+    <script>
+      (() => {
+        const image = document.querySelector('.about-page .profile img');
+        if (!image) return;
+        let count = 0;
+        let timer;
+        image.addEventListener('click', () => {
+          count += 1;
+          clearTimeout(timer);
+          if (count === 5) {
+            window.location.href = 'https://rancho77777.github.io/';
+            return;
+          }
+          timer = setTimeout(() => {
+            count = 0;
+          }, 500);
+        });
+      })();
+    </script>
   </article>
 </div>
