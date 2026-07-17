@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turning Phone-Surface Contacts into Probabilistic Landmarks for Indoor Localization
-description: Submitted to Sensys '26
+description: Submitted to Sensys '27
 tag: • Indoor Localization, Smartphone Sensing, IMU, Ubiquitous Computing
 img: assets/img/STEP/overview.png
 importance: 2
