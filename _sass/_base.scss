@@ -194,13 +194,14 @@ ul.task-list input[type="checkbox"] {
 
 /* ===== About page layout configuration =====
  * Profile image
- *   --profile-image-width   : image column width on desktop  (default 25%)
+ *   --profile-image-width-desktop : image column width on desktop  (default 25%)
  *   --profile-image-offset-y: vertical offset, + = down      (default 5px)
  *   --profile-text-gap      : gap between image and text     (default 3rem)
  *
  * Section spacing
  *   --about-title-to-text    : title ↔ text body                  (default 3rem)
- *   --about-text-to-research : text ↔ Research Interests           (default 2.5rem)
+ *   --about-text-to-research         : text ↔ Research Interests on mobile  (default 3rem)
+ *   --about-text-to-research-desktop : text ↔ Research Interests on desktop (default 2rem)
  *   --about-research-to-news : Research Interests ↔ News           (default 2.5rem)
  *   --about-text-to-news     : text ↔ News (if no research section)(default 3rem)
  *   --about-news-to-pubs     : News ↔ Publications                 (default 3rem)
@@ -215,12 +216,13 @@ ul.task-list input[type="checkbox"] {
  * Adjust the values below to tune the About page layout.
  */
 :root {
-  --profile-image-width: 25%;
+  --profile-image-width-desktop: 25%;
   --profile-image-offset-y: 5px;
   --profile-text-gap: 3rem;
 
   --about-title-to-text: 3rem;
   --about-text-to-research: 3rem;
+  --about-text-to-research-desktop: 2.5rem;
   --about-research-to-news: 3rem;
   --about-text-to-news: 3rem;
   --about-news-to-pubs: 3rem;
@@ -266,7 +268,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: var(--profile-image-width);
+    width: var(--profile-image-width-desktop);
     position: relative;
     top: var(--profile-image-offset-y);
 
@@ -336,6 +338,12 @@ ul.task-list input[type="checkbox"] {
 /* Research Interests section */
 .post.about-page .about-section-research {
   margin-top: var(--about-text-to-research);
+}
+
+@media (min-width: 576px) {
+  .post.about-page .about-section-research {
+    margin-top: var(--about-text-to-research-desktop);
+  }
 }
 
 .research-interests-grid {
@@ -1140,7 +1148,7 @@ footer.sticky-bottom {
           }
 
           &:hover {
-            color: var(--global-text-color);
+            color: var(--global-theme-color);
             text-decoration: none;
           }
         }

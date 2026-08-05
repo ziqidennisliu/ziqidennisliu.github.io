@@ -13,6 +13,20 @@
   links:
     project_page: "/projects/9_project/"
 
+- title: "Turning Phone-Surface Contacts into Probabilistic Landmarks for Indoor Localization"
+  venue: "Submitted to ACM SenSys"
+  year: "2027"
+  preview: "assets/img/STEP/teaser.png"
+  selected: true
+  authors:
+    - name: "Xiangjie Tang"
+    - name: "Ziqi Liu"
+      self: true
+    - name: "Minhao Cui"
+    - name: "Qijia Shao"
+  links:
+    project_page: "/projects/10_project/"
+
 - title: "Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration"
   venue: "ACM CHI"
   year: "2025"

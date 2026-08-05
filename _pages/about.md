@@ -45,6 +45,6 @@ Hi! I'm **Ziqi Liu**.
 
 I'm a first-year M.phil student at the [UbiquitousX Lab](https://qijiashao.github.io/team/) at [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by [Qijia Shao](https://qijiashao.github.io/). Prior to HKUST, I got my B.Eng degree at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/en/), advised by [Yuntao Wang](https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/) and [Haipeng Mi](https://www.milab.design/team-1/mi-haipeng).
 
-My research lies at the intersection of **Mobile & Ubiquitous Computing** and **HCI**. I focus on wearable and mobile sensing technologies, adaptive interaction support, and mobile health, aiming to design AI-assisted systems that implicitly sense users’ behavioral and physiological states and provide timely, context-aware interventions.
+My research lies at the intersection of **Mobile & Ubiquitous Computing** and **HCI**. I focus on wearable and mobile sensing technologies, adaptive interaction support, mobile health, and AIoT, aiming to design AI-assisted systems that implicitly sense users’ behavioral and physiological states and provide timely, context-aware interventions.
 
 I have gained valuable research experience in multiple esteemed labs, including [the Future Lab](https://thfl.tsinghua.edu.cn/en/) and [Pervasive HCI Group](https://pi.cs.tsinghua.edu.cn/) at Tsinghua University.
