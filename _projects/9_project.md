@@ -3,7 +3,7 @@ layout: page
 title: PreTap：Implicit Reachability Analysis and Tap Prediction for One-handed Mobile Interaction
 description: 2026, ACM IMWUT '26
 tag: • Natural Interaction, Ubiquitous Computing, Mobile Devices, Personalization
-img: assets/img/Pretap/headfig.jpg
+img: assets/img/Pretap/teaser.png
 importance: 1
 category: Research Projects
 ---
