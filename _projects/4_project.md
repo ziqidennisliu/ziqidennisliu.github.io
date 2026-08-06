@@ -9,10 +9,10 @@ category: Fun Projects
 ---
 
 2024  
-*Teamwork: **Ziqi Liu**, Yao Lu, Xuezhu Wang*  
-*Advisor: Haipeng Mi*  
+_Teamwork: **Ziqi Liu**, Yao Lu, Xuezhu Wang_  
+_Advisor: Haipeng Mi_  
 <br>
-This work is part of a collaboration project with [Mercedes-Benz, Beijing](https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-5184.html). In this project, we explored the application forms and interaction design of emerging smart materials in automotive interiors, including textile sensors, smart materials, 4D materials, and dynamic materials.  
+This work is part of a collaboration project with [Mercedes-Benz, Beijing](https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-5184.html). In this project, we explored the application forms and interaction design of emerging smart materials in automotive interiors, including textile sensors, smart materials, 4D materials, and dynamic materials.
 
 In this work, we explored the potential application of [a new type of flexible luminescent material](https://www.nature.com/articles/s41586-021-03295-8) in traditional **embroidery** techniques, as well as its possible uses in automotive cabin interactions.
 
@@ -106,7 +106,6 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
 <div class="caption">
     Animation of the glowing embroidered decoration in the Mercedes-Benz engineering vehicle.
 </div>
-
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">

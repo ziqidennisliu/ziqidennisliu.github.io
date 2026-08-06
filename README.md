@@ -50,9 +50,11 @@
 按影响范围从大到小：
 
 1. **全站风格开关与参数**
+
    - `_config.yml`
 
 2. **全站样式入口与主题变量**
+
    - `assets/css/main.scss`
    - `_sass/_themes.scss`
    - `_sass/_variables.scss`
@@ -63,6 +65,7 @@
    - `_sass/_tabs.scss`
 
 3. **页面结构与组件（决定视觉骨架）**
+
    - `_layouts/default.liquid`
    - `_includes/head.liquid`
    - `_includes/header.liquid`
@@ -78,6 +81,7 @@
 ## 3. 控制网页“内容”的关键文件
 
 1. **页面正文内容**
+
    - `_pages/about.md`
    - `_pages/projects.md`
    - `_pages/publications.md`
@@ -85,11 +89,13 @@
    - 以及 `_pages/` 中其他页面
 
 2. **列表型内容源**
+
    - `_news/`（新闻）
    - `_projects/`（项目）
    - `_bibliography/papers.bib`（论文）
 
 3. **结构化数据**
+
    - `_data/coauthors.yml`
    - `_data/venues.yml`
    - `_data/repositories.yml`

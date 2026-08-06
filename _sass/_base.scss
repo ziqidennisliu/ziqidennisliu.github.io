@@ -353,7 +353,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .research-interest-card {
-  flex: 1 1 0;          /* equal width columns */
+  flex: 1 1 0; /* equal width columns */
   min-width: 0;
 
   h3 {
@@ -660,7 +660,10 @@ footer.sticky-bottom {
       opacity: 0;
       filter: blur(20px);
       transform: scale(1.02);
-      transition: filter 0.6s ease, opacity 0.4s ease, transform 0.6s ease;
+      transition:
+        filter 0.6s ease,
+        opacity 0.4s ease,
+        transform 0.6s ease;
 
       // Phase 1: layout done, show blurred preview
       &.jg-laid-out {

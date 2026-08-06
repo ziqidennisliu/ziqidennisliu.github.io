@@ -11,8 +11,8 @@ related_publications: false
 
 2024  
 Coursework of Innovative Design and Practice - Basics  
-*Teamwork: **Ziqi Liu**, Yixuan Zhi*  
-*Advisor: Lei Zhang*  
+_Teamwork: **Ziqi Liu**, Yixuan Zhi_  
+_Advisor: Lei Zhang_  
 <br>
 This project is part of the wayfinding system design for the public spaces of [Xinya College, Tsinghua University](https://www.xyc.tsinghua.edu.cn/en/).  
 The entire project includes the planning of the wayfinding system, icon design, and the design of wayfinding boards, among other elements. The design style seamlessly integrates with the existing environment, while the innovative form of the wayfinding boards effectively adapts to the site's needs.

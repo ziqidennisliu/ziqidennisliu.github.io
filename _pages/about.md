@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -39,7 +39,6 @@ research_interests:
       description: >
         I design algorithms that extract meaningful features and information from users’ <b>behavioral</b> and <b>physiological</b> data (PPG, EDA, ECG and etc.). By combining with domain knowledge, I transform them into health insights, to provide personalized, actionable health guidance and support.
 ---
-
 
 Hi! I'm **Ziqi Liu**.
 

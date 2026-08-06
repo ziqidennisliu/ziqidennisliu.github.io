@@ -150,7 +150,9 @@
             <div class="author">
               {%- for author in publication.authors -%}
                 {%- if author.self -%}
-                  <strong><u class="author-self">{{ author.name }}</u></strong>
+                  <strong
+                    ><u class="author-self">{{ author.name }}</u></strong
+                  >
                 {%- else -%}
                   {{ author.name }}
                 {%- endif -%}
@@ -163,19 +165,24 @@
                 <em>{{ publication.venue }}</em>
               {% endif %}
               {% if publication.year %}
-                {% if publication.venue %}, {% endif %}{{ publication.year }}
+                {% if publication.venue %}, {% endif -%}
+                {{- publication.year }}
               {% endif %}
             </div>
 
             {% if publication.links %}
               <div class="links">
                 {% if publication.links.paper %}
-                  <a href="{{ publication.links.paper }}" class="publication-link" target="_blank" rel="noopener">[<span class="publication-link-label">paper</span>]</a>
+                  <a href="{{ publication.links.paper }}" class="publication-link" target="_blank" rel="noopener"
+                    >[<span class="publication-link-label">paper</span>]</a
+                  >
                 {% endif %}
                 {% if publication.links.video %}
                   {% assign video_url = publication.links.video %}
                   {% if video_url contains '://' %}
-                    <a href="{{ video_url }}" class="publication-link" target="_blank" rel="noopener">[<span class="publication-link-label">video</span>]</a>
+                    <a href="{{ video_url }}" class="publication-link" target="_blank" rel="noopener"
+                      >[<span class="publication-link-label">video</span>]</a
+                    >
                   {% else %}
                     <a href="{{ video_url | relative_url }}" class="publication-link">[<span class="publication-link-label">video</span>]</a>
                   {% endif %}
@@ -183,9 +190,13 @@
                 {% if publication.links.project_page %}
                   {% assign project_page_url = publication.links.project_page %}
                   {% if project_page_url contains '://' %}
-                    <a href="{{ project_page_url }}" class="publication-link" target="_blank" rel="noopener">[<span class="publication-link-label">project page</span>]</a>
+                    <a href="{{ project_page_url }}" class="publication-link" target="_blank" rel="noopener"
+                      >[<span class="publication-link-label">project page</span>]</a
+                    >
                   {% else %}
-                    <a href="{{ project_page_url | relative_url }}" class="publication-link">[<span class="publication-link-label">project page</span>]</a>
+                    <a href="{{ project_page_url | relative_url }}" class="publication-link"
+                      >[<span class="publication-link-label">project page</span>]</a
+                    >
                   {% endif %}
                 {% endif %}
               </div>
@@ -195,7 +206,5 @@
       </li>
     {% endfor %}
   </ol>
-  <p class="publication-note">
-    * More ongoing work can be found on the <a href="{{ '/projects/' | relative_url }}">Projects page</a>.
-  </p>
+  <p class="publication-note">* More ongoing work can be found on the <a href="{{ '/projects/' | relative_url }}">Projects page</a>.</p>
 </div>

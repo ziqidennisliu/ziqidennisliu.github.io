@@ -11,8 +11,8 @@ related_publications: false
 
 2022  
 Coursework of User Experience Design  
-*Teamwork: **Ziqi Liu**, Jiacheng Liu*  
-*Advisor: Lie Zhang*  
+_Teamwork: **Ziqi Liu**, Jiacheng Liu_  
+_Advisor: Lie Zhang_  
 <br>
 
 <div style="text-align:center;">

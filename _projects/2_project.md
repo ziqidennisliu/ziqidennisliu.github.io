@@ -9,9 +9,9 @@ category: Research Projects
 ---
 
 2024  
-*Yibo Wang, **Ziqi Liu**, Jiao Xue, Qi Lu*  
+_Yibo Wang, **Ziqi Liu**, Jiao Xue, Qi Lu_  
 <br>
-Emerging Mixed Reality (MR) platforms with spatially aware capabilities allow us to experience digital objects blended with the real world, yet current HCI researches neglect the rich potential that olfactory inputs hold for enhancing user immersion and interaction within immersive MR environments. Additionally, the interaction between olfactory rendering and the physical environment has not been thoroughly investigated.   
+Emerging Mixed Reality (MR) platforms with spatially aware capabilities allow us to experience digital objects blended with the real world, yet current HCI researches neglect the rich potential that olfactory inputs hold for enhancing user immersion and interaction within immersive MR environments. Additionally, the interaction between olfactory rendering and the physical environment has not been thoroughly investigated.
 
 We proposed a **"field-centric"** olfactory rendering strategy, designed and implemented the **AroMR** proof-of-concept prototype, and explored potential olfactory scenarios and design spaces within Mixed Reality.
 
@@ -28,10 +28,9 @@ We proposed a **"field-centric"** olfactory rendering strategy, designed and imp
 </div>
 
 <br>
-## “Field-Centric”  
+## “Field-Centric”
 
 Unlike traditional olfactory devices placed near the nose, the "field-centric" strategy disperses small olfactory units across various locations in the physical environment. Users can fully leverage the physical space to create a "scent network" and better utilize the airflow within the environment to interact with the scents emitted by the devices. This approach enables effects such as dispersion, flow, and wafting, which are difficult to achieve with conventional olfactory devices.
-
 
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,7 +39,7 @@ Unlike traditional olfactory devices placed near the nose, the "field-centric" s
 </div>
 
 <br>
-## AroMR  
+## AroMR
 
 The system consists of two parts: the olfactory display hardware and the mixed reality software.
 
@@ -72,9 +71,8 @@ We used the Meta Quest 3 and our self-designed and developed scent playback hard
     </div>
 </div>
 
-
 <br>
-## Applications and Design Spaces  
+## Applications and Design Spaces
 
 In the mixed reality software, we developed three typical scenarios to validate our design. These three scenarios effectively demonstrate some potential olfactory experiences utilizing the physical environment in MR and provide insights for exploring future olfactory scenarios and design space.
 
@@ -95,5 +93,3 @@ Building on the above exploration, we plan to organize an expert workshop to dis
         {% include figure.liquid loading="eager" path="assets/img/AroMR/designspace.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
-
-

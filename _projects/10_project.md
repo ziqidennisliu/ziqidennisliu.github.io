@@ -9,7 +9,7 @@ category: Research Projects
 ---
 
 2026  
-*Xiangjie Tang, **Ziqi Liu**, Minhao Cui, Qijia Shao*
+_Xiangjie Tang, **Ziqi Liu**, Minhao Cui, Qijia Shao_
 
 <br>
 <div class="row">

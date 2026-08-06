@@ -9,10 +9,10 @@ category: Fun Projects
 ---
 
 2024  
-*Teamwork: **Ziqi Liu**, Zhang Jiang, Xinyang Liu*  
-*Advisor: Lei Zhang, Linhong Ji*  
+_Teamwork: **Ziqi Liu**, Zhang Jiang, Xinyang Liu_  
+_Advisor: Lei Zhang, Linhong Ji_  
 <br>
-This work is a science popularization interactive installation that we designed in collaboration with the [China Science and Technology Museum](https://cstm.cdstm.cn/AboutUs/index.html) in Beijing, for its Science Paradise Exhibition Hall.  
+This work is a science popularization interactive installation that we designed in collaboration with the [China Science and Technology Museum](https://cstm.cdstm.cn/AboutUs/index.html) in Beijing, for its Science Paradise Exhibition Hall.
 
 This device helps participants develop an intuitive understanding and reflection on the principles of reflection and refraction through the form of an **optical path-based competitive game**. While ensuring fun, demonstration, and educational value, it uses magnetic attraction control and a design that separates the optical path from the operation section to maximize controllability and safety during use.
 
@@ -25,7 +25,7 @@ This device helps participants develop an intuitive understanding and reflection
 <br>
 ## Concept Design and Sketches
 
-Based on the basic rule of "guiding the light emitted by the laser emitter to the opponent's receiver to win" and the game setting of interstellar warfare, we extended the gameplay and designed the appearance.  
+Based on the basic rule of "guiding the light emitted by the laser emitter to the opponent's receiver to win" and the game setting of interstellar warfare, we extended the gameplay and designed the appearance.
 
 Additionally, for safety considerations, we developed a unique magnetic attraction method and device structure to control the movement and rotation of optical components, ensuring that the light and optical components remain level and minimizing the risk of laser exposure to the eyes.
 
@@ -88,7 +88,6 @@ In terms of assembly, we precisely limit the height of the enclosed space on the
 
 <br>
 ## Renderings and Effect Demonstrations
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

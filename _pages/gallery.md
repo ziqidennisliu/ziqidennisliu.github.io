@@ -7,16 +7,16 @@ nav: true
 nav_order: 5
 ---
 
-*"I think a photographer and a film director are very much alike. They both tell a story." --Francis Ford Coppola*  
+_"I think a photographer and a film director are very much alike. They both tell a story." --Francis Ford Coppola_  
 <br>
 Outside of the lab, I am a fan of crafts, movies, rollerblading and tennis, as well as a contract photographer with [Visual China Group](https://en.wikipedia.org/wiki/Visual_China_Group).
 <br>
-I tell the tale of my footsteps and stories through images, hoping that you may glimpse the person I am beyond the work I do.  
-
+I tell the tale of my footsteps and stories through images, hoping that you may glimpse the person I am beyond the work I do.
 
 <br><br>
 **2025** Mobicom 2025 in Hong Kong
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/mobicom1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/mobicom1.jpg' | relative_url }}" alt="Mobicom 2025" width="5627" height="3165" loading="lazy" decoding="async" />
@@ -33,6 +33,7 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
 <br><br>
 **2025** First Glimpse of Hong Kong
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/hongkong1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/hongkong1.jpg' | relative_url }}" alt="Hong Kong" width="5200" height="3899" loading="lazy" decoding="async" />
@@ -49,6 +50,7 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
 <br><br>
 **2025** Spring in Beijing
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/spring1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/spring1.jpg' | relative_url }}" alt="Spring in Beijing" width="5064" height="3376" loading="lazy" decoding="async" />
@@ -62,11 +64,10 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
   </div>
 </div>
 
-
-
 <br><br>
 **2024** Sunset at Seaside
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/tianjin_sea2-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/tianjin_sea2.jpg' | relative_url }}" alt="Sunset at Seaside" width="1080" height="1512" loading="lazy" decoding="async" />
@@ -79,6 +80,7 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
 <br><br>
 **2023** Snow in Tsinghua
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/snow1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/snow1.jpg' | relative_url }}" alt="Snow in Tsinghua" width="720" height="1008" loading="lazy" decoding="async" />
@@ -91,6 +93,7 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
 <br><br>
 **2023** Street Snapshots in Italy, Germany and Denmark
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/europestreet1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/europestreet1.jpg' | relative_url }}" alt="Europe Street" width="3761" height="3761" loading="lazy" decoding="async" />
@@ -106,10 +109,10 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
   </div>
 </div>
 
-
 <br><br>
 **2021** Beijing, China
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/ancient1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/ancient1.jpg' | relative_url }}" alt="Beijing" width="2428" height="1619" loading="lazy" decoding="async" />
@@ -122,6 +125,7 @@ I tell the tale of my footsteps and stories through images, hoping that you may 
 <br><br>
 **2021** Tsinghua University, Beijing, China
 <br>
+
 <div class="justified-gallery">
   <div class="jg-row">
     <img src="{{ '/assets/img/gallery/campus1-480.webp' | relative_url }}" data-full-src="{{ '/assets/img/gallery/campus1.jpg' | relative_url }}" alt="Tsinghua" width="2508" height="3511" loading="lazy" decoding="async" />

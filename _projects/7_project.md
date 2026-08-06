@@ -11,10 +11,9 @@ related_publications: false
 
 2023  
 Coursework of Interaction Design  
-*Teamwork: **Ziqi Liu**, Jiacheng Liu*  
-*Advisor: Yan Guan*  
+_Teamwork: **Ziqi Liu**, Jiacheng Liu_  
+_Advisor: Yan Guan_  
 <br>
-
 
 <div style="text-align:center;">
   <iframe 
@@ -26,7 +25,3 @@ Coursework of Interaction Design
     allowfullscreen>
   </iframe>
 </div>
-
-
-
-

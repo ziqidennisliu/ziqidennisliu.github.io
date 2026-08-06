@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Cognitive Pen
+title: Cognitive Pen
 description: A Pen-Based Multi-Physiological Signal Monitoring System
 tag: • Electrical Engineering, Algorism Design, Product Design # see the projects.liquid in _includes/scripts
 img: assets/img/cognitivepen/title.jpg
@@ -9,8 +9,8 @@ category: Fun Projects
 ---
 
 2025  
-*Ziqi Liu*  
-*Advisor: Yuntao Wang, Haipeng Mi*  
+_Ziqi Liu_  
+_Advisor: Yuntao Wang, Haipeng Mi_
 
 Continuous monitoring of physiological signals such as electrodermal activity (EDA) and photoplethysmography (PPG) is critical for assessing users’ psychological states in health and education contexts. However, acquiring high-quality signals remains challenging due to the sensitivity of sensor placement and motion artifacts.
 
@@ -25,7 +25,7 @@ This research offers a novel and practical solution for robust, low-burden psych
 </div>
 
 <br>
-## Pen-based Sensing System Design  
+## Pen-based Sensing System Design
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,7 +34,7 @@ This research offers a novel and practical solution for robust, low-burden psych
 </div>
 
 <br>
-## Hardware Design  
+## Hardware Design
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -53,7 +53,7 @@ This research offers a novel and practical solution for robust, low-burden psych
 </div>
 
 <br>
-## Algorism Design 
+## Algorism Design
 
 The results of the signal correlation analysis are associated with the hand movement intensity reflected by the IMU data.
 
@@ -77,7 +77,7 @@ Training Method for the Signal Usability Classification Model：
 
 <br>
 
-Workflow of Signal Usability Assessment and Cognitive Load Classification：  
+Workflow of Signal Usability Assessment and Cognitive Load Classification：
 
 <br>
 
