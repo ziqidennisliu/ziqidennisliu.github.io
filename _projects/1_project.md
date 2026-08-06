@@ -45,7 +45,7 @@ By filtering valid cursor coordinates as proxies for gaze ground truth and fine-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/COMETIC/teaser.png" title="image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/COMETIC/teaser.png" title="image" class="img-fluid rounded" responsive=false %}
     </div>
 </div>
 <div class="caption">

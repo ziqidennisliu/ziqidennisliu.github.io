@@ -1,6 +1,28 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last %}
+{% assign responsive_raster = false %}
+{% if ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' %}
+  {% assign responsive_raster = true %}
+{% endif %}
+{% if include.responsive == false %}
+  {% assign responsive_raster = false %}
+{% endif %}
+{% assign fallback_src = include.path | relative_url %}
+{% if include.url %}
+  {% assign fallback_src = include.url %}
+{% elsif site.imagemagick.enabled and responsive_raster %}
+  {% assign largest_width = site.imagemagick.widths | last %}
+  {% assign responsive_fallback_path = img_path | append: '-' | append: largest_width | append: '.webp' %}
+  {% assign fallback_src = responsive_fallback_path | relative_url %}
+{% endif %}
+{% unless include.url %}
+  {% if include.cache_bust %}
+    {% assign cache_busted_original = include.path | relative_url | bust_file_cache %}
+    {% assign cache_digest = cache_busted_original | split: '?' | last %}
+    {% assign fallback_src = fallback_src | append: '?' | append: cache_digest %}
+  {% endif %}
+{% endunless %}
 
 <figure
   {% if include.slot %}
@@ -16,7 +38,7 @@
     {% if site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
-        {% if ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' %}
+        {% if responsive_raster %}
           srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{ i }}w,{% endfor %}"
           type="image/webp"
         {% else %}
@@ -30,7 +52,7 @@
       >
     {% endif %}
     <img
-      src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
+      src="{{ fallback_src }}"
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}

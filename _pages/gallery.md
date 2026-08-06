@@ -9,6 +9,8 @@ nav_order: 5
 
 *"I think a photographer and a film director are very much alike. They both tell a story." --Francis Ford Coppola*  
 <br>
+Outside of the lab, I am a fan of crafts, movies, rollerblading and tennis, as well as a contract photographer with [Visual China Group](https://en.wikipedia.org/wiki/Visual_China_Group).
+<br>
 I tell the tale of my footsteps and stories through images, hoping that you may glimpse the person I am beyond the work I do.  
 
 

@@ -89,6 +89,20 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Remove duplicate high-resolution images 🖼️
+        shell: bash
+        run: |
+          find _site/assets/img -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.tiff' \) -size +1M -print0 |
+          while IFS= read -r -d '' file; do
+            fallback="${file%.*}-1400.webp"
+            public_path="/${file#_site/}"
+            if [[ -f "$fallback" ]] && ! grep -R -F -q \
+              --include='*.html' --include='*.css' --include='*.js' --include='*.json' --include='*.xml' \
+              "$public_path" _site; then
+              rm "$file"
+            fi
+          done
+          du -sh _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
