@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Morphology-Based Human Body Posture Recognition Using PPG Signal
-description: Work in Progress
+description: "Work in Progress"
 tag: • Posture Recognition, Photoplethysmography, Wearable Sensing
 img: assets/img/ppg_posture/teaser.png
 importance: 0.75
