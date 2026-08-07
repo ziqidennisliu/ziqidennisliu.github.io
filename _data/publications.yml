@@ -1,7 +1,7 @@
 - title: "PreTap: Implicit Reachability Analysis and Tap Prediction for One-handed Mobile Interaction"
   venue: "ACM IMWUT"
   year: "2026"
-  preview: "assets/img/Pretap/pub.png"
+  preview: "assets/img/Pretap/public.png"
   selected: true
   authors:
     - name: "Ziqi Liu"
@@ -50,7 +50,7 @@
 - title: "AroMR: Decentralizing Olfactory Displays into the Environment for Olfactory-Augmented Experiences in Mixed Reality"
   venue: "ACM CHI EA"
   year: "2025"
-  preview: "assets/img/publication_preview/AroMR.png"
+  preview: "assets/img/AroMR/pub.png"
   selected: true
   authors:
     - name: "Yibo Wang"
