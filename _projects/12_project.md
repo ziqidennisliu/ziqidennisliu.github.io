@@ -14,3 +14,5 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/ppg_posture/teaser.png" title="PPG morphology across human body postures" class="img-fluid rounded" %}
     </div>
 </div>
+
+More details are coming soon. [Contact me]({% link _pages/contact.md %}) if you are interested.

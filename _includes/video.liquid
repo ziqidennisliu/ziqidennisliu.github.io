@@ -1,4 +1,13 @@
 {% assign extension = include.path | split: '.' | last %}
+{% assign video_aspect_ratio = include.aspect_ratio | default: '16 / 9' %}
+{% assign iframe_path = include.path %}
+{% if include.path contains 'youtube.com/embed/' or include.path contains 'youtu.be/' %}
+  {% if include.path contains '?' %}
+    {% assign iframe_path = include.path | append: '&cc_load_policy=0' %}
+  {% else %}
+    {% assign iframe_path = include.path | append: '?cc_load_policy=0' %}
+  {% endif %}
+{% endif %}
 
 <figure>
   {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
@@ -53,43 +62,26 @@
     />
 
   {% else %}
-    <iframe
-      src="{{ include.path }}"
-      {% if include.class %}
-        class="{{ include.class }}"
-      {% endif %}
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="auto"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        height="{{ include.max-height }}"
-      {% endif %}
-      {% if include.alt %}
-        alt="{{ include.alt }}"
-      {% endif %}
-      {% if include.title %}
-        title="{{ include.title }}"
-      {% endif %}
-    />
+    <div class="video-embed" style="aspect-ratio: {{ video_aspect_ratio }};">
+      <iframe
+        src="{{ iframe_path }}"
+        {% if include.class %}
+          class="{{ include.class }}"
+        {% endif %}
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        width="100%"
+        height="100%"
+        style="display: block; width: 100%; height: 100%; border: 0;"
+        {% if include.alt %}
+          alt="{{ include.alt }}"
+        {% endif %}
+        {% if include.title %}
+          title="{{ include.title }}"
+        {% endif %}
+      ></iframe>
+    </div>
   {% endif %}
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>

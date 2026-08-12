@@ -21,9 +21,7 @@ By filtering valid cursor coordinates as proxies for the ground truth of gaze an
 
 <br>
 
-<div class="embed-responsive embed-responsive-16by9">
-    {% include video.liquid path="https://www.youtube.com/embed/6kr93ZJNsv4" class="embed-responsive-item" title="COMETIC video" width="100%" height="100%" %}
-</div>
+{% include video.liquid path="https://www.youtube.com/embed/6kr93ZJNsv4" title="COMETIC video" aspect_ratio="16 / 9" %}
 
 <br>
 ## Eye Tracking on Smartphone

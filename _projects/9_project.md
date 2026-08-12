@@ -12,9 +12,7 @@ category: Research Projects
 **\*Ziqi Liu**, Ziyi Xu, Jinhe Wen, Xiangjie Tang, Qijia Shao\*
 
 <br>
-<div class="embed-responsive embed-responsive-16by9">
-    {% include video.liquid path="https://www.youtube.com/embed/-xjXAX1BhWY" class="embed-responsive-item" title="PreTap video" width="100%" height="100%" %}
-</div>
+{% include video.liquid path="https://www.youtube.com/embed/-xjXAX1BhWY" title="PreTap video" aspect_ratio="16 / 9" %}
 <br>
 One-handed interaction on large-screen smartphones often leads to ergonomic discomfort and disruption, while existing solutions typically rely on explicit gestures, additional hardware, or static ergonomic models, limiting their deployability and adaptability. We present PreTap, an anticipatory system that predicts imminent tap regions and implicitly infers reachability from zero-permission inertial signals, enabling proactive interface adaptation during the pre-tap phase.
 
