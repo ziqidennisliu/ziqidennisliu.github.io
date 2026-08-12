@@ -11,6 +11,7 @@
     - name: "Xiangjie Tang"
     - name: "Qijia Shao"
   links:
+    video: "https://www.youtube.com/watch?v=-xjXAX1BhWY"
     project_page: "/projects/9_project/"
 
 - title: "Turning Phone-Surface Contacts into Probabilistic Landmarks for Indoor Localization"

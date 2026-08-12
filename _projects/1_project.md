@@ -21,10 +21,8 @@ By filtering valid cursor coordinates as proxies for the ground truth of gaze an
 
 <br>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/cometic.mp4" autoplay="true" controls="true" width="100%" height="auto" %}
-    </div>
+<div class="embed-responsive embed-responsive-16by9">
+    {% include video.liquid path="https://www.youtube.com/embed/6kr93ZJNsv4" class="embed-responsive-item" title="COMETIC video" width="100%" height="100%" %}
 </div>
 
 <br>
