@@ -30,7 +30,7 @@ research_interests:
       image: ri_sense.svg
       description: >
         I repurpose built-in sensors on mobile and wearable devices or design custom wearables to capture rich <b>behavioral</b> and <b>physiological</b> signals during natural interaction. My work integrates innovations in both <b>hardware</b> and <b>algorithms</b> to enable less intrusive acquisition of higher-quality signals for downstream tasks.
-    - title: Adaptive Interaction Support
+    - title: Adaptive Interactive Systems
       image: ri_interaction.svg
       description: >
         I design systems that extract and analyze users’ interaction intentions and habits from their <b>behavioral</b> and <b>motion</b> data, providing real-time and personalized interaction assistance to improve user experience in scenarios such as <b>mobile interaction, eye-gaze recognition, indoor localization, and AR/VR</b>.
